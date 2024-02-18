@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfc7aca9-40c9-43d5-8b75-f1c31caf3fbe" name="Changes" comment="" />
+    <list default="true" id="f2ec03f7-2444-4a5e-a2e3-b3173440a9f4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tecnocampus/ecotaro/API/EcoTaroRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tecnocampus/ecotaro/API/EcoTaroRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tecnocampus/ecotaro/API/UserRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tecnocampus/ecotaro/API/UserRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tecnocampus/ecotaro/APPLICATION/ServiceManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tecnocampus/ecotaro/APPLICATION/ServiceManagementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tecnocampus/ecotaro/DOMAIN/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tecnocampus/ecotaro/DOMAIN/Topic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Calls.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Calls.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-H2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-H2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTTP Request" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -13,27 +38,62 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2cVuRBoJPI4KmzUZz7o0WT2SwXK" />
+  <component name="ProjectId" id="2cVKQOGM31sUOOm7zxrwV23BSCI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Silvia/Documents/GitHub/EcoTaro/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "315ad7bdb65757f125df22d395822388",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tecnocampus.ecotaro.PERSISTANCE" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Silvia\Documents\GitHub\EcoTaro\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tecnocampus.ecotaro.CONFIGURATION" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="EcoTaroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="EcoTaro.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tecnocampus.ecotaro.EcoTaroApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dfc7aca9-40c9-43d5-8b75-f1c31caf3fbe" name="Changes" comment="" />
-      <created>1708209056311</created>
+      <changelist id="f2ec03f7-2444-4a5e-a2e3-b3173440a9f4" name="Changes" comment="" />
+      <created>1708191291093</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1708209056311</updated>
-      <workItem from="1708209057791" duration="94000" />
+      <updated>1708191291093</updated>
+      <workItem from="1708191292097" duration="16044000" />
+      <workItem from="1708223582424" duration="4394000" />
+      <workItem from="1708240967601" duration="4732000" />
     </task>
     <servers />
   </component>

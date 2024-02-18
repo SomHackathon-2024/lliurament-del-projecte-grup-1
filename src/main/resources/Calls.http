@@ -1,0 +1,27 @@
+#Crear User
+###
+POST http://localhost:8080/users
+
+#Filtrar usuari
+###
+GET http://localhost:8080/users/44e128a5ac7a4c9abe4c224b6bf81b30
+
+#Crear activitats
+###
+POST http://localhost:8080/activities
+
+#getAllActivities
+###
+GET http://localhost:8080/activities
+
+#joinActivity
+###
+POST http://localhost:8080/activities/{{activityId}}/join
+
+#getActivityDetails
+###
+GET http://localhost:8080/activities/{{activityId}}
+
+#createTopic
+###
+POST http://localhost:8080/topics
