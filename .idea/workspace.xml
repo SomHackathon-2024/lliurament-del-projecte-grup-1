@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2ec03f7-2444-4a5e-a2e3-b3173440a9f4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application-H2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-H2.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,9 +97,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.Calls | Filtrar usuari" />
         <item itemvalue="HTTP Request.Calls | Crear User" />
         <item itemvalue="HTTP Request.Calls | Crear activitats" />
-        <item itemvalue="HTTP Request.Calls | Filtrar usuari" />
         <item itemvalue="HTTP Request.Calls | getAllTopics" />
         <item itemvalue="HTTP Request.Calls | postMessage" />
       </list>
@@ -116,7 +117,7 @@
       <workItem from="1708223582424" duration="4394000" />
       <workItem from="1708240967601" duration="9384000" />
       <workItem from="1708251116375" duration="87000" />
-      <workItem from="1708251619771" duration="57000" />
+      <workItem from="1708251619771" duration="950000" />
     </task>
     <servers />
   </component>
