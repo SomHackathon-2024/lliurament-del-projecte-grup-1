@@ -23,8 +23,8 @@ public class EcoTaroRestController {
         this.serviceManagementService = serviceManagementService;
     }
 
-    @PostMapping("/activities")
-    public ActivityDTO createActivity(@RequestBody ActivityDTO activitydto, @RequestParam String organizerId) {
+    @PostMapping("/activities/users/{organizerId}/create")
+    public ActivityDTO createActivity(@RequestBody ActivityDTO activitydto, @PathVariable String organizerId) {
         return activityService.createActivity(activitydto, organizerId);
     }
 
@@ -34,8 +34,8 @@ public class EcoTaroRestController {
         return activityService.findAllActivities();
     }
 
-    @PostMapping("/activities/{activityId}/join")
-    public ActivityDTO joinActivity(@PathVariable String activityId, @RequestParam String userId) {
+    @PostMapping("/activities/{activityId}/users/{userId}/join")
+    public ActivityDTO joinActivity(@PathVariable String activityId,  @PathVariable String userId) {
         return activityService.addParticipant(activityId, userId);
     }
 
@@ -61,7 +61,7 @@ public class EcoTaroRestController {
         return communityService.getAllTopics();
     }
 
-    @GetMapping("/topics/{topicId}/messages")
+    @GetMapping("/topics/{topicId}/message")
     public List<MessageDTO> getMessagesByTopic(@PathVariable String topicId) {
         return communityService.getMessagesByTopic(topicId);
     }

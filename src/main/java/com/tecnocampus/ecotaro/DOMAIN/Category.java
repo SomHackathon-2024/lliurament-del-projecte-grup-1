@@ -17,7 +17,8 @@ public class Category {
     private String id;
     private String name;
 
-    @OneToMany(mappedBy = "categories", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "category",cascade = CascadeType.ALL)
+    @OrderColumn
     private Set<Services> services = new HashSet<>();
 
     public Category(CategoryDTO categoryDTO){

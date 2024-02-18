@@ -28,7 +28,7 @@ public class Users {
     @Column(unique = true)
     private String username;
 
-    @OneToMany(mappedBy = "organizers")
+    @OneToMany(mappedBy = "organizer")
     private Set<Activity> organizedActivities = new HashSet<>();
 
     @ManyToMany(mappedBy = "participants")

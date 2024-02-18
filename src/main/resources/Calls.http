@@ -1,27 +1,63 @@
-#Crear User
-###
-POST http://localhost:8080/users
 
-#Filtrar usuari
-###
+###Crear User
+POST http://localhost:8080/users
+content-type: application/json
+
+{
+  "name": "Juan",
+  "surname": "Pérez",
+  "email": "juan.perez@example.com",
+  "gender": "Male",
+  "username": "juanperez"
+}
+
+
+### Filtrar usuari
 GET http://localhost:8080/users/44e128a5ac7a4c9abe4c224b6bf81b30
 
-#Crear activitats
-###
-POST http://localhost:8080/activities
 
-#getAllActivities
-###
+###Crear activitats
+POST http://localhost:8080/activities/users/44e128a5ac7a4c9abe4c224b6bf81b30
+content-type: application/json
+
+{
+  "name": "Caminata por el Parque Nacional",
+  "description": "Una exploración guiada por uno de los parques nacionales más hermosos, dirigida a entusiastas del aire libre de todos los niveles.",
+  "dateTime": "2024-03-25T10:00:00",
+  "location": "Parque Nacional de Guadarrama",
+  "organizer": "44e128a5ac7a4c9abe4c224b6bf81b30"
+}
+
+###getAllActivities
 GET http://localhost:8080/activities
 
-#joinActivity
-###
-POST http://localhost:8080/activities/{{activityId}}/join
 
-#getActivityDetails
-###
-GET http://localhost:8080/activities/{{activityId}}
+###joinActivity
+POST http://localhost:8080/activities/Act1/users/44e128a5ac7a4c9abe4c224b6bf81b30
+content-type: application/json
 
-#createTopic
-###
+{
+  "userId": "44e128a5ac7a4c9abe4c224b6bf81b32"
+}
+
+
+###getActivityDetails
+GET http://localhost:8080/activities/Act1
+
+
+###createTopic
 POST http://localhost:8080/topics
+content-type: application/json
+
+{
+  "title": "Conservación del Medio Ambiente",
+  "description": "Discusión abierta sobre estrategias y prácticas para la conservación del medio ambiente."
+}
+
+
+### getMessagesByTopic
+GET http://localhost:8080/topics/1/message
+
+###getAllTopics
+GET http://localhost:8080/topics
+

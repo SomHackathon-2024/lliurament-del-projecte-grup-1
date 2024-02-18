@@ -10,7 +10,7 @@ import java.util.UUID;
 @Entity(name = "services")
 public class Services {
 
-    @jakarta.persistence.Id
+    @Id
     @GeneratedValue
     private String id;
 
@@ -18,8 +18,7 @@ public class Services {
     private String description;
     private String url;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "category_id")
+    @ManyToOne
     private Category category;
 
     public Services(ServiceDTO serviceDTO) {
